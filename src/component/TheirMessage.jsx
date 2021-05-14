@@ -1,3 +1,4 @@
+import React from "react";
 const TheirMessage = ({lastMessageKey, message}) =>{
     const isFirstMessagByUser = !lastMessageKey || lastMessageKey.sender.username !== message.sender.username
     return(
