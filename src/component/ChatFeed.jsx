@@ -24,7 +24,7 @@ const ChatFeed=(props)=>{
             )
         )))
     }
-   const renderMessages = () =>{
+   const renderMessages = () => {
        const keys = Object.keys(messages);
        return(
             keys.map((key, index) =>{
